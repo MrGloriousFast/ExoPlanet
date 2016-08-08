@@ -1,18 +1,16 @@
-//Using SDL and standard IO
-
+//Using SDL
 #ifdef __linux__
     // Linux Includes Here
     #include <SDL2/SDL.h>
-    #error Can't be compiled on Linux yet
-#endif
-
-#ifdef _WIN32 || _WIN64
+#elif _WIN32 || _WIN64
     // Windows Includes Here
     #include <SDL.h>
-    #error Can't be compiled on Windows yet
-#endif
+#endif //windows
 
+//include our libs
 #include <Config.h>
+
+//include standart io
 #include <stdio.h>
 
 int main( int argc, char* args[] )
