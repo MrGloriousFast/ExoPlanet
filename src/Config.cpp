@@ -1,4 +1,4 @@
-#include "Config.h"
+#include "../include/Config.h"
 
 //Screen dimension constants
 const int SCREEN_WIDTH = 1040;
