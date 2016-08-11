@@ -1,0 +1,11 @@
+Wir brauchen ne Config klasse die ein text file einliest und da werte wie auflösung etc rausliest. Dann brauchen wir keine globalen variablen und jeder depp kann werte ändern ohne in unseren code zu gucken.
+
+eventuell sogar mehr dateien, eine für technische sachen andere für inhaltliche. wie viele rohstoffe gibt es etc.
+
+mögliche werte wären:
+renderFps
+logicFps
+auflösung
+schwierigkeitsgrad
+größe des lvls
+anzahl start creaturen

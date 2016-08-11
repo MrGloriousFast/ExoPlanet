@@ -1,0 +1,27 @@
+wir brauchen eine basic engine.
+
+wir müssen:
+sound abspielen (mehrere gleichzeitig)
+bilder rendern (auch animierte)
+text rendern
+input sammeln 
+innerliche logik berechnen
+dateien lesen und schreiben
+
+erste version der engine sollte folgendes tun können bevor wir weiter arbeiten:
+
+1 spielfeld rendern.tile based overlay als raster rendern.
+2 ein paar creatures haben die zufällig umherrennen
+3 ein creature das von player input gesteurt wird
+4 ein test hud overlay (ein test bild)
+5 debug view per knopf druck, fps reicht erstmal
+6 hauptmenu am anfang und nach tasten druck (space) beginnt das spiel
+7 esc to exit game/menu directly
+8 mindestens ein bild darstellen
+9 mindestens ein sound abspielen
+
+ideen wie mans implementieren könnte:
+render loop und logikloop sind getrennt
+alle render methoden sollten von den logik methoden getrennt sein
+wir brauchen nutzvolle game states, am besten gucken wir wie adnere das machen anstatt selbst was auszudenken.
+generell sollten wir viel von anderen kopieren anstatt uns selbst was auszudenken. solange wirs selbst implementieren werden wir genug lernen.
